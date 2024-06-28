@@ -10,8 +10,12 @@ namespace Cluster5
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+
+            List<Player> scores = new List<Player>();
+
+
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new Menu(scores));
         }
     }
 }

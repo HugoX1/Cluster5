@@ -1,0 +1,3 @@
+Jerry = 9
+Bob = 3
+Hugo = 8
